@@ -24,5 +24,9 @@ public class Comparar {
    public void compararSimple(double n1,double n2){
        if(n1>n2)
            JOptionPane.showMessageDialog(null, "o maior é "+n1);
+       else if (n1==n2)
+           JOptionPane.showMessageDialog(null, "os números son iguais");
+       else
+           JOptionPane.showMessageDialog(null, "o maior é "+n2 );
    }
     }
